@@ -9,8 +9,8 @@ Tweets fetcher is a open source web application which we can use to fetch real t
 To get started you can simply clone this repository using git:
 
 ```
-git clone https://github.com/tsrahul1996/twitterDataFetchApp.git
-cd twitterDataFetchApp
+git clone https://github.com/tsrahul1996/TweetsFetcher.git
+cd TweetsFetcher
 
 ```
 
