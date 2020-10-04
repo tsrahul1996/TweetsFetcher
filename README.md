@@ -26,13 +26,13 @@ Maven 3.0 or later
 ### Configuration
 
 #### Twitter developer App
-Accessing the Twitter APIs requires a set of credentials that you must pass with each request.You have to create a twitter developer account and create new project indorder retrive these credentials. The steps are explained in the following link.
+Accessing the Twitter APIs requires a set of credentials that you must pass with each request.You have to create a twitter developer account and new project inorder to retrive these credentials. The steps are explained in the following link.  
 
 https://developer.twitter.com/en/docs/apps/overview
 
 #### App Configuration
 
-The credentials from your twitter dev account (apiKey and apiKeySecret) are configured in order to get your app working.  
+The credentials from your twitter development account (apiKey and apiKeySecret) are configured to get your app working.  
 
 tweetFetcher.apiKey = ${your apiKey}  
 
