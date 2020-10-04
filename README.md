@@ -17,9 +17,9 @@ cd TweetsFetcher
 
 ### Prerequisites
 
-Git
-JDK 8 or later
-Maven 3.0 or later
+Git  
+JDK 8 or later  
+Maven 3.0 or later  
 
 
 
@@ -32,15 +32,15 @@ https://developer.twitter.com/en/docs/apps/overview
 
 #### App Configuration
 
-The credentials from your twitter dev account (apiKey and apiKeySecret) are configured in order to get your app working.
+The credentials from your twitter dev account (apiKey and apiKeySecret) are configured in order to get your app working.  
 
-tweetFetcher.apiKey = ${your apiKey}
+tweetFetcher.apiKey = ${your apiKey}  
 
 tweetFetcher.apiKeySecret =  ${your apiKeySecret}
 
-The configuration is located in src/resources/application.properties.
+The configuration is located in src/resources/application.properties.  
 
-With the default configuration you can provide these values through the environment variables apiKey and apiKeySecret.
+With the default configuration you can provide these values through the environment variables apiKey and apiKeySecret.  
 
 ```
 tweetFetcher.apiKey = yourapiKey
@@ -51,11 +51,11 @@ tweetFetcher.apiKeySecret = yourapiKeySecret
 
 
 ### Build an executable JAR
-You can run the application from the command line using maven commands.
+You can run the application from the command line using maven commands.  
 
-mvn clean install : To build executable JAR
+mvn clean install : To build executable JAR  
 
-The  executable JAR can be found in target folder can be used to deploy in servers.
+The  executable JAR can be found in target folder can be used to deploy in servers.  
 
 ### Server Configuration
 
@@ -66,12 +66,12 @@ The Default sever configured for this project is Apache tomcat. If you want to r
 open http://localhost:8090/home
 
 To fetch all the tweets from Twitter following condition are provided
-conditions:
-1. By followers (eg: @twitter_handle)
-2. By keyword/track (eg: #India, Sports, #Formula1 etc)
-3. Both (followers or keywords).
+conditions:  
+1. By followers (eg: @twitter_handle)  
+2. By keyword/track (eg: #India, Sports, #Formula1 etc)  
+3. Both (followers or keywords).  
 
-By choosing the above condition using drop down provided and value in given textbox, On a simple click on search button can retrive the tweets.
+By choosing the above condition using drop down provided and value in given textbox, On a simple click on search button can retrive the tweets.  
 
 ## Authors
 
@@ -79,5 +79,5 @@ By choosing the above condition using drop down provided and value in given text
 
 ## Acknowledgments
 
-* StackOverFlow
+* StackOverFlow  
 * GitHub
